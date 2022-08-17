@@ -1,0 +1,127 @@
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+.video-title{
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.channel-picture{
+  width: 50px;
+  vertical-align: top;
+  height: 36px
+}
+.video-info{
+  width: 100%;
+}  
+.profile-picture{
+  width: 36px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.thumbnail-row{
+  margin-bottom: 8px;
+  position: relative;
+}
+.video-time{
+  background: black;
+  color: white;
+  font-size: 12px;
+  font-family: roboto;
+  position: absolute;
+  bottom: 10px;
+  right: 5px; 
+  padding:4px ;
+  font-weight: 500;
+  border-radius: 2px;
+}
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: #606060;
+}
+.video-author{
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width:750px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width:750px) and (max-width:1030px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width:1030px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.channel-picture{
+  position: relative;
+}
+
+.profile-hover-box{
+  background-color: white;
+  padding: 13px;
+  box-shadow: 2px 2px 2px rgba(131, 130, 130, 0.6);
+  position: absolute;
+  top: 47px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: 0.18s;
+  pointer-events: none;
+}
+.channel-picture:hover .profile-hover-box{
+  opacity: 1;
+}
+.profile-picture-hover{
+  width: 47px;
+  border-radius: 47px;
+}
+.profile-info-hover{
+  padding-left: 10px;
+  padding-right: 20px;
+  white-space:nowrap ;
+}
+.profile-name-hover{
+  font-family: roboto;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.number-of-subscribers-hover{
+  font-family: roboto;
+  color: #606060;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+

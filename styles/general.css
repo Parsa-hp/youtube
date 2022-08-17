@@ -1,0 +1,21 @@
+
+p{
+  font-family: roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 95px;
+  padding-right: 25px;
+  background-color: rgb(250, 246, 246);
+}
+.video-title a{
+  text-decoration: none;
+  color: black;
+}
+.video-author a{
+  text-decoration: none;
+  color: #606060;
+}
